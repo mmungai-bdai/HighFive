@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 cmake_policy(VERSION 3.13)
 
-project(HighFive VERSION 3.0.0)
+project(highfive VERSION 3.0.0)
 
 # Configure HighFive
 # ------------------
@@ -145,7 +145,7 @@ install(EXPORT HighFiveTargets
 )
 
 install(FILES
-  ${CMAKE_CURRENT_SOURCE_DIR}/cmake/HighFiveConfig.cmake
+  ${CMAKE_CURRENT_SOURCE_DIR}/cmake/highfiveConfig.cmake
   ${CMAKE_CURRENT_BINARY_DIR}/cmake/HighFiveConfigVersion.cmake
   DESTINATION lib/cmake/HighFive
 )
